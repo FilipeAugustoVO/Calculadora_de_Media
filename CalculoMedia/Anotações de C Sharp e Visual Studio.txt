@@ -105,11 +105,15 @@ Propriedades:
 
 		AutoSize - o PictureBox altera seu tamannho automaticamente, para se ajustar ao tamanho da imagem.
 
+	string.Empty: Mesma funcionalidade e propriedade do valor "" vazio. Significa que é totalmente vazio.
+
 	Text: Texto exibido no elemento.	
 
 
+Keywords/Palavras chaves:
+	
+	this: Referência á atual instância da classe.
 
-Notas de programação C#:
 
 Componente: Ler esse artigo á seguir - https://msdn.microsoft.com/en-us/library/0b1dk63b.aspx
 
@@ -236,6 +240,8 @@ Tipos de data/Data Types pra C#:
 
 
 Tipos de Métodos:
+
+	Metodo Color: Muda a cor de uma coisa.
 
 	Metodo Estático: 
 		https://pt.stackoverflow.com/questions/54012/qual-a-fun%C3%A7%C3%A3o-de-um-m%C3%A9todo-est%C3%A1tico
