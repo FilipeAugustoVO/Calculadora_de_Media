@@ -58,24 +58,3 @@ A segunda é melhor, porque ela evita que o programa considere alguns espaços c
 
 https://stackoverflow.com/questions/34298857/best-way-to-check-whether-a-textbox-is-empty-or-not/34299121
 
-
-Passos que faltam ao programa PrimeiroPrograma:
-frmPropriedadesCheckBox: 
-1. Tornar os paineis pnlPessoaFisica e pnlPessoaJuridica invisiveis por padrão, ao iniciar programa. - FEITO
-2. Tornar visível o painél corresponde ao botão checkbox pressionado corretamente: - FEITO
-	2a. Se a checkbox Pessoa Fisica (chkPessoaFisica) for selecionada, deve aparecer o painel de Pessoa Fisica (pnlPessoaFisica), e esconder o painel de Pessoa Juridica (pnlPessoaJuridica).
-	2b. Se a checkbox Pessoa Juridica (chkPessoaJuridica) for selecionada, deve aparecer o painel de Pessoa Juridica (pnlPessoaJuridica), e esconder o painel de Pessoa Fisica (pnlPessoaJuridica).
-
-frmVisualizadorImagens:
-1. Inserir imagem de moldura na PictureBox. -= FEITO
-	1a. Encontrar imagem apropriada
-	1b. Colocar a imagem no programa
-2. Reduzir PictureBox para tamanho correto, de moldura. - FEITO
-3. Ativar botão Mostrar Imagem (btnMostrarImagem), de modo que ao ser clicado, ele permite carregar e mostrar uma imagem.
-4. Ativar o botão limpar imagem, usando a função clear(). - FEITO
-5. Ativar botão Stretch.
-6. Ativar botão Normal.	
-7. Desabilitar botão Mostrar Imagem, caso não tenha imagem.
-
-
-Como fazer a
