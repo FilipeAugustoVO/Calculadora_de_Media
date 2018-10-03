@@ -69,7 +69,9 @@ Propriedades:
 
 	Border Style: Indica se o painel deve ter uma borda.
 	
-		Fixed Single: Impede o redimensionamento da border durante execução do programa, deixando-a fixa.	
+		Fixed Single: Impede o redimensionamento da border durante execução do programa, deixando-a fixa.
+
+		Clear: Limpa o conteúdo que existe dentro de um componente. Ela é limitada apenas ao grupo de componentes da família  TextBox, como TextBox e MaskedTextBox. Para usa=lá com uma variável Control, temos que informar ao programa que o componente é uma TextBox.	
 
 
 	Font: Altera a fonte de texto de formulários e tal, tipo de fonte, tamanho, etc.	
@@ -105,6 +107,8 @@ Propriedades:
 
 		AutoSize - o PictureBox altera seu tamannho automaticamente, para se ajustar ao tamanho da imagem.
 
+	SelectedIndex = Utilizada para acessar os índices dos componentes: ComboBox, ListBox, DropdownList, entre outros.
+
 	string.Empty: Mesma funcionalidade e propriedade do valor "" vazio. Significa que é totalmente vazio.
 
 	Text: Texto exibido no elemento.	
@@ -113,6 +117,15 @@ Propriedades:
 Keywords/Palavras chaves:
 	
 	this: Referência á atual instância da classe.
+
+Statements:
+
+	Foreach: Estrutura de repetição que quando executada percorrerá um conjunto de dados. Sintaxe básica é:
+		foreach( <tipo de dados><nome> in <lista>)
+	{
+		//instruções
+	}	
+
 
 
 Componente: Ler esse artigo á seguir - https://msdn.microsoft.com/en-us/library/0b1dk63b.aspx
@@ -385,3 +398,7 @@ Tipos de Métodos:
 
 	ToString: Metodo virtual. Retorna uma representação de string. É um metodo	
 
+
+Variáveis:
+
+	Variável Control: Adiciona um componente.

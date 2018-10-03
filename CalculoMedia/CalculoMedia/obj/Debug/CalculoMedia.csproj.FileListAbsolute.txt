@@ -6,3 +6,7 @@ C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj
 C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.GenerateResource.Cache
 C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.exe
 C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.pdb
+C:\Users\aluno\Desktop\C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Desktop\C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.FormaCalculo1.resources
+C:\Users\aluno\Desktop\C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.GenerateResource.Cache
+C:\Users\aluno\Desktop\C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.exe

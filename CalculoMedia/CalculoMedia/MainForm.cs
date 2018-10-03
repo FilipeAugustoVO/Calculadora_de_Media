@@ -39,7 +39,7 @@ namespace CalculoMedia
 		}
 		void Label1Click(object sender, EventArgs e) //botao situacao, serve para mostrar a atual situação do estudante após calcular as notas, aulas e faltas
 		{
-            lblSituacao.Text = "";
+			lblSituacao.Text = "";
 		}
 		void FormaCalculo1Load(object sender, EventArgs e)
 		{
@@ -53,7 +53,7 @@ namespace CalculoMedia
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+        	txtRecuperacao.Text = string.Empty;
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -122,9 +122,15 @@ namespace CalculoMedia
                     (Componente as ComboBox).SelectedIndex = -1;
                 }
                 else
-                    if (Componente is IsAccessible NumericUpDown)
+                    if (Componente is NumericUpDown)
                 {
                     (Componente as NumericUpDown).Value = 5;
+                }
+                else
+ 					if(Componente is NumericUpDown)
+                {
+                	(Componente as NumericUpDown)
+                		.Value = 5;                	
                 }
             }
 
