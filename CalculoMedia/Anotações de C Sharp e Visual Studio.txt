@@ -108,8 +108,10 @@ Propriedades:
 	Text: Texto exibido no elemento.	
 
 
+Keywords/Palavras chaves:
+	
+	this: Referência á atual instância da classe.
 
-Notas de programação C#:
 
 Componente: Ler esse artigo á seguir - https://msdn.microsoft.com/en-us/library/0b1dk63b.aspx
 

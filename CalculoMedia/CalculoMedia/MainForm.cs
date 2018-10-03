@@ -45,5 +45,66 @@ namespace CalculoMedia
 		{
 	
 		}
-	}
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            //Converte o conteudo dos componentes TextBox txtAulas e txtFaltas
+
+
+            double Nota1, Nota2, Trabalho; //variáveis  que armazenaram notas já calculadas, convertidas para double.
+            {
+                if (txtRecuperacao.Text == "")
+            }
+            {
+                if (Media >= Convert.ToDouble(numUpDownNotaCorte.Value) && PorcentagemPresenca >= 75)
+                }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            //botão limpar
+            lblSituacao_txt = "";
+            txtRecuperacao.Text = string.Empty;
+
+            //Laço de repetição que irá percorrer todos os componentes do formulário.
+            foreach (Control Componente in this.Controls)
+            {
+                if (Componente is TextBox)
+                {
+                    (Componente as TextBox).Clear();
+                }
+                else
+                    if (Componente is ComboBox)
+                {
+                    (Componente as ComboBox).SelectedIndex = -1;
+                }
+                else
+                    if (Componente is IsAccessible NumericUpDown)
+                {
+                    (Componente as NumericUpDown).Value = 5;
+                }
+            }
+
+        }
+
+        private void txtAulas_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAproveitamento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
