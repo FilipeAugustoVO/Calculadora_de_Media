@@ -1,0 +1,58 @@
+Programa Calculo de Média
+
+Lista de tarefas:
+
+1. Codificar formatos de avaliação:
+	a. 1 Avaliação + Trabalho.
+		Se (a), então só veremos os controladores Primeira Nota e Trabalho. Segunda e Terceira Nota serão escondidos na interface do programa.
+
+	b. 2 Avaliações
+		Se (b), então veremos apenas Primeira e Segunda Notas. Terceira Nota e Trabalho serão escondidos da interface do programa.
+
+	c. 2 Avaliações + Trabalho
+		Se (c), então Primeira e Segunda Notas, junto com Trabalho, aparecerão. Terceira Nota será escondida da interface. 
+
+	d. 3 Avaliações
+		Se (d), então Primeira, Segunda e Terceira Notas aparecerão na interface, e Trabalho será escondido.
+
+	e. 3 Avaliações + Trabalho
+		Se (d), então Primeira, Segunda e Terceira Notas aparecerão na interface, assim como Trabalho. Nenhum painel será escondido ou alterado.
+
+	f. 4 Avaliações
+		Se (f), então Primeira, Segunda e Terceira Notas aparecerão na interface, assim como Trabalho. Porém, a label de Trabalho será alterada para Quarta Nota no lugar do original Trabalho.
+
+
+3. Fazer o código ler os multiplicadores indicadas nos Items das quatro ComboBoxes de Nota e Trabalho, e usa-las nos cálculos dos items na textbox. Multiplicadores são: 2, 3 e 5.
+	(2) multiplica nota por 2.
+	(3) multiplica nota por 3.
+	(5) multiplica nota por 5.
+
+4. Fazer o código levar em conta a nota de corte ao calcular se o aluno foi reprovado ou aprovado: 
+	
+
+
+5. Fazer o botão limpar, limpar o conteudo das notas.
+
+6. O botão calcular média deve:
+	a. Calcular a soma das notas nas quatro textboxes.
+		Primeira Nota x Multiplicador1 + Segunda Nota x Multiplicador2 + Terceira Nota x Multiplicador3 + Trabalho/Quarta Nota x Multiplicador4 = Soma das Notas.
+		Soma das Notas (x) / Número de notas calculadas (y) = Média Final.
+
+	(a e b): Primeira Nota + Trabalho = 2 / Soma das Notas. Ou seja, x / y, onde x é 2.
+
+	(c e d): Primeira Nota + Segunda Nota + Terceira Nota ou Trabalho = 3 / Soma das notas. Ou seja, x / y, onde x é 3.
+
+	(e e f)	Primeira Nota + Segunda Nota + Terceira Nota + Trabalho ou Quarta Nota = 4 / Soma das notas. Ou seja, x / y, onde x é 4.
+
+	Situação extra: Se Recuperação não estiver vazia, então adicionará um valor extra ao x.
+
+	b. Calcular aproveitamento (qtd aulas - qtd faltas = aproveitamento).
+
+	c. Verificar se soma das notas ou aproveitamento total não resultou
+
+	d. Mostrar resultado do calculo Soma de Notas / Número de Notas Calculadas na label da Situação 
+
+	e. Se Média Final < Nota de Corte e/ou Qde Aulas - Qde Faltas < Minimo de Aproveitamento, então RECUPERAÇÃO. Label da situação escreverá Recuperação, em letras vermelhas só pra assustar mesmo.
+
+
+	Nota: Fazer um modelo com média acumulativa.

@@ -45,5 +45,105 @@ namespace CalculoMedia
 		{
 	
 		}
-	}
+
+        private void txtTrabalho_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboxTrabalho_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboxSegundaNota_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSegundaNota_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboxPrimeiraNota_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPrimeiraNota_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQantidadeDeAulas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuantidadeDeFaltas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numUpDownNotaCorte_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gpbxRecuperacao_Enter(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
