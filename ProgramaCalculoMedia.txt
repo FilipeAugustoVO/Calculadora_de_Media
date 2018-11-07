@@ -2,7 +2,7 @@ Programa Calculo de Média
 
 Lista de tarefas:
 
-1. Codificar formatos de avaliação:
+1. Codificar formatos de avaliação, localizados em elementos de ComboBox:
 	a. 1 Avaliação + Trabalho.
 		Se (a), então só veremos os controladores Primeira Nota e Trabalho. Segunda e Terceira Nota serão escondidos na interface do programa.
 

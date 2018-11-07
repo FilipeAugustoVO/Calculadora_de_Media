@@ -15,15 +15,6 @@ namespace CalculoMedia
 		/// </summary>
 		private System.ComponentModel.IContainer components = null;
 		private System.Windows.Forms.PictureBox pictureBox1;
-		private System.Windows.Forms.TextBox txtPrimeiraNota;
-		private System.Windows.Forms.ComboBox cboxPrimeiraNota;
-		private System.Windows.Forms.TextBox txtSegundaNota;
-		private System.Windows.Forms.ComboBox cboxSegundaNota;
-		private System.Windows.Forms.TextBox txtTrabalho;
-		private System.Windows.Forms.ComboBox cboxTrabalho;
-		private System.Windows.Forms.Label lblPrimeiraNota;
-		private System.Windows.Forms.Label lblSegundaNota;
-		private System.Windows.Forms.Label lblTrabalho;
 		private System.Windows.Forms.TextBox textBox5;
 		private System.Windows.Forms.TextBox textBox6;
 		private System.Windows.Forms.Label lblQuantidadeDeFaltas;
@@ -61,15 +52,6 @@ namespace CalculoMedia
 		private void InitializeComponent()
 		{
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtPrimeiraNota = new System.Windows.Forms.TextBox();
-            this.cboxPrimeiraNota = new System.Windows.Forms.ComboBox();
-            this.lblPrimeiraNota = new System.Windows.Forms.Label();
-            this.lblSegundaNota = new System.Windows.Forms.Label();
-            this.lblTrabalho = new System.Windows.Forms.Label();
-            this.txtSegundaNota = new System.Windows.Forms.TextBox();
-            this.cboxSegundaNota = new System.Windows.Forms.ComboBox();
-            this.txtTrabalho = new System.Windows.Forms.TextBox();
-            this.cboxTrabalho = new System.Windows.Forms.ComboBox();
             this.lblQantidadeDeAulas = new System.Windows.Forms.Label();
             this.lblQuantidadeDeFaltas = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -91,14 +73,31 @@ namespace CalculoMedia
             this.label3 = new System.Windows.Forms.Label();
             this.cboxAvaliacao = new System.Windows.Forms.ComboBox();
             this.lblFormatoAvaliacao = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.txtPrimeiraNota = new System.Windows.Forms.TextBox();
+            this.cboxPrimeiraNota = new System.Windows.Forms.ComboBox();
+            this.lblPrimeiraNota = new System.Windows.Forms.Label();
+            this.gboxPrimeiraNota = new System.Windows.Forms.GroupBox();
+            this.gboxSegundaNota = new System.Windows.Forms.GroupBox();
+            this.lblSegundaNota = new System.Windows.Forms.Label();
+            this.cboxSegundaNota = new System.Windows.Forms.ComboBox();
+            this.txtSegundaNota = new System.Windows.Forms.TextBox();
+            this.gboxTerceiraNota = new System.Windows.Forms.GroupBox();
+            this.lblTerceiraNota = new System.Windows.Forms.Label();
+            this.cboxTerceiraNota = new System.Windows.Forms.ComboBox();
+            this.txtTerceiraNota = new System.Windows.Forms.TextBox();
+            this.gboxQuartaNota = new System.Windows.Forms.GroupBox();
+            this.cboxTrabalho = new System.Windows.Forms.ComboBox();
+            this.txtQuartaNota = new System.Windows.Forms.TextBox();
+            this.lblQuartaNota = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numUpDownNotaCorte)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.gpbxRecuperacao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.gboxPrimeiraNota.SuspendLayout();
+            this.gboxSegundaNota.SuspendLayout();
+            this.gboxTerceiraNota.SuspendLayout();
+            this.gboxQuartaNota.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -109,114 +108,6 @@ namespace CalculoMedia
             this.pictureBox1.Size = new System.Drawing.Size(471, 63);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // txtPrimeiraNota
-            // 
-            this.txtPrimeiraNota.Location = new System.Drawing.Point(16, 171);
-            this.txtPrimeiraNota.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPrimeiraNota.Name = "txtPrimeiraNota";
-            this.txtPrimeiraNota.Size = new System.Drawing.Size(94, 22);
-            this.txtPrimeiraNota.TabIndex = 2;
-            this.txtPrimeiraNota.TextChanged += new System.EventHandler(this.txtPrimeiraNota_TextChanged);
-            // 
-            // cboxPrimeiraNota
-            // 
-            this.cboxPrimeiraNota.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboxPrimeiraNota.FormattingEnabled = true;
-            this.cboxPrimeiraNota.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "5"});
-            this.cboxPrimeiraNota.Location = new System.Drawing.Point(16, 203);
-            this.cboxPrimeiraNota.Margin = new System.Windows.Forms.Padding(4);
-            this.cboxPrimeiraNota.Name = "cboxPrimeiraNota";
-            this.cboxPrimeiraNota.Size = new System.Drawing.Size(94, 24);
-            this.cboxPrimeiraNota.TabIndex = 3;
-            this.cboxPrimeiraNota.SelectedIndexChanged += new System.EventHandler(this.cboxPrimeiraNota_SelectedIndexChanged);
-            // 
-            // lblPrimeiraNota
-            // 
-            this.lblPrimeiraNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrimeiraNota.Location = new System.Drawing.Point(16, 146);
-            this.lblPrimeiraNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPrimeiraNota.Name = "lblPrimeiraNota";
-            this.lblPrimeiraNota.Size = new System.Drawing.Size(94, 21);
-            this.lblPrimeiraNota.TabIndex = 4;
-            this.lblPrimeiraNota.Text = "Primeira Nota";
-            this.lblPrimeiraNota.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lblPrimeiraNota.Click += new System.EventHandler(this.Label1Click);
-            // 
-            // lblSegundaNota
-            // 
-            this.lblSegundaNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundaNota.Location = new System.Drawing.Point(128, 146);
-            this.lblSegundaNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblSegundaNota.Name = "lblSegundaNota";
-            this.lblSegundaNota.Size = new System.Drawing.Size(114, 21);
-            this.lblSegundaNota.TabIndex = 4;
-            this.lblSegundaNota.Text = "Segunda Nota";
-            this.lblSegundaNota.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lblSegundaNota.Click += new System.EventHandler(this.Label1Click);
-            // 
-            // lblTrabalho
-            // 
-            this.lblTrabalho.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrabalho.Location = new System.Drawing.Point(378, 146);
-            this.lblTrabalho.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTrabalho.Name = "lblTrabalho";
-            this.lblTrabalho.Size = new System.Drawing.Size(94, 21);
-            this.lblTrabalho.TabIndex = 4;
-            this.lblTrabalho.Text = "Trabalho";
-            this.lblTrabalho.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lblTrabalho.Click += new System.EventHandler(this.Label1Click);
-            // 
-            // txtSegundaNota
-            // 
-            this.txtSegundaNota.Location = new System.Drawing.Point(137, 171);
-            this.txtSegundaNota.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSegundaNota.Name = "txtSegundaNota";
-            this.txtSegundaNota.Size = new System.Drawing.Size(94, 22);
-            this.txtSegundaNota.TabIndex = 2;
-            this.txtSegundaNota.TextChanged += new System.EventHandler(this.txtSegundaNota_TextChanged);
-            // 
-            // cboxSegundaNota
-            // 
-            this.cboxSegundaNota.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboxSegundaNota.FormattingEnabled = true;
-            this.cboxSegundaNota.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "5"});
-            this.cboxSegundaNota.Location = new System.Drawing.Point(137, 203);
-            this.cboxSegundaNota.Margin = new System.Windows.Forms.Padding(4);
-            this.cboxSegundaNota.Name = "cboxSegundaNota";
-            this.cboxSegundaNota.Size = new System.Drawing.Size(94, 24);
-            this.cboxSegundaNota.TabIndex = 3;
-            this.cboxSegundaNota.SelectedIndexChanged += new System.EventHandler(this.cboxSegundaNota_SelectedIndexChanged);
-            // 
-            // txtTrabalho
-            // 
-            this.txtTrabalho.Location = new System.Drawing.Point(378, 171);
-            this.txtTrabalho.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTrabalho.Name = "txtTrabalho";
-            this.txtTrabalho.Size = new System.Drawing.Size(94, 22);
-            this.txtTrabalho.TabIndex = 2;
-            this.txtTrabalho.TextChanged += new System.EventHandler(this.txtTrabalho_TextChanged);
-            // 
-            // cboxTrabalho
-            // 
-            this.cboxTrabalho.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboxTrabalho.FormattingEnabled = true;
-            this.cboxTrabalho.Items.AddRange(new object[] {
-            "2",
-            "3",
-            "5"});
-            this.cboxTrabalho.Location = new System.Drawing.Point(378, 203);
-            this.cboxTrabalho.Margin = new System.Windows.Forms.Padding(4);
-            this.cboxTrabalho.Name = "cboxTrabalho";
-            this.cboxTrabalho.Size = new System.Drawing.Size(94, 24);
-            this.cboxTrabalho.TabIndex = 3;
-            this.cboxTrabalho.SelectedIndexChanged += new System.EventHandler(this.cboxTrabalho_SelectedIndexChanged);
             // 
             // lblQantidadeDeAulas
             // 
@@ -359,9 +250,9 @@ namespace CalculoMedia
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Firebrick;
-            this.groupBox1.Location = new System.Drawing.Point(479, 146);
+            this.groupBox1.Location = new System.Drawing.Point(499, 146);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(134, 100);
+            this.groupBox1.Size = new System.Drawing.Size(134, 88);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Recuperação";
@@ -369,7 +260,7 @@ namespace CalculoMedia
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(20, 44);
+            this.textBox1.Location = new System.Drawing.Point(20, 26);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(94, 26);
@@ -444,7 +335,7 @@ namespace CalculoMedia
             this.cboxAvaliacao.Name = "cboxAvaliacao";
             this.cboxAvaliacao.Size = new System.Drawing.Size(220, 24);
             this.cboxAvaliacao.TabIndex = 3;
-            this.cboxAvaliacao.SelectedIndexChanged += new System.EventHandler(this.cboxSegundaNota_SelectedIndexChanged);
+            this.cboxAvaliacao.SelectedIndexChanged += new System.EventHandler(this.cboxAvaliacao_SelectedIndexChanged);
             // 
             // lblFormatoAvaliacao
             // 
@@ -458,47 +349,203 @@ namespace CalculoMedia
             this.lblFormatoAvaliacao.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblFormatoAvaliacao.Click += new System.EventHandler(this.Label1Click);
             // 
-            // textBox4
+            // txtPrimeiraNota
             // 
-            this.textBox4.Location = new System.Drawing.Point(262, 171);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(94, 22);
-            this.textBox4.TabIndex = 2;
-            this.textBox4.TextChanged += new System.EventHandler(this.txtTrabalho_TextChanged);
+            this.txtPrimeiraNota.Location = new System.Drawing.Point(11, 25);
+            this.txtPrimeiraNota.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPrimeiraNota.Name = "txtPrimeiraNota";
+            this.txtPrimeiraNota.Size = new System.Drawing.Size(94, 22);
+            this.txtPrimeiraNota.TabIndex = 2;
+            this.txtPrimeiraNota.TextChanged += new System.EventHandler(this.txtPrimeiraNota_TextChanged);
             // 
-            // comboBox2
+            // cboxPrimeiraNota
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cboxPrimeiraNota.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxPrimeiraNota.FormattingEnabled = true;
+            this.cboxPrimeiraNota.Items.AddRange(new object[] {
             "2",
             "3",
             "5"});
-            this.comboBox2.Location = new System.Drawing.Point(262, 203);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(94, 24);
-            this.comboBox2.TabIndex = 3;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.cboxTrabalho_SelectedIndexChanged);
+            this.cboxPrimeiraNota.Location = new System.Drawing.Point(11, 57);
+            this.cboxPrimeiraNota.Margin = new System.Windows.Forms.Padding(4);
+            this.cboxPrimeiraNota.Name = "cboxPrimeiraNota";
+            this.cboxPrimeiraNota.Size = new System.Drawing.Size(94, 24);
+            this.cboxPrimeiraNota.TabIndex = 3;
+            this.cboxPrimeiraNota.SelectedIndexChanged += new System.EventHandler(this.cboxPrimeiraNota_SelectedIndexChanged);
             // 
-            // label9
+            // lblPrimeiraNota
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(249, 146);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 21);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "Terceira Nota";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label9.Click += new System.EventHandler(this.Label1Click);
+            this.lblPrimeiraNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrimeiraNota.Location = new System.Drawing.Point(12, 0);
+            this.lblPrimeiraNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPrimeiraNota.Name = "lblPrimeiraNota";
+            this.lblPrimeiraNota.Size = new System.Drawing.Size(94, 21);
+            this.lblPrimeiraNota.TabIndex = 4;
+            this.lblPrimeiraNota.Text = "Primeira Nota";
+            this.lblPrimeiraNota.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblPrimeiraNota.Click += new System.EventHandler(this.Label1Click);
+            // 
+            // gboxPrimeiraNota
+            // 
+            this.gboxPrimeiraNota.Controls.Add(this.lblPrimeiraNota);
+            this.gboxPrimeiraNota.Controls.Add(this.cboxPrimeiraNota);
+            this.gboxPrimeiraNota.Controls.Add(this.txtPrimeiraNota);
+            this.gboxPrimeiraNota.Location = new System.Drawing.Point(5, 146);
+            this.gboxPrimeiraNota.Name = "gboxPrimeiraNota";
+            this.gboxPrimeiraNota.Size = new System.Drawing.Size(116, 88);
+            this.gboxPrimeiraNota.TabIndex = 12;
+            this.gboxPrimeiraNota.TabStop = false;
+            // 
+            // gboxSegundaNota
+            // 
+            this.gboxSegundaNota.Controls.Add(this.lblSegundaNota);
+            this.gboxSegundaNota.Controls.Add(this.cboxSegundaNota);
+            this.gboxSegundaNota.Controls.Add(this.txtSegundaNota);
+            this.gboxSegundaNota.Location = new System.Drawing.Point(127, 146);
+            this.gboxSegundaNota.Name = "gboxSegundaNota";
+            this.gboxSegundaNota.Size = new System.Drawing.Size(116, 88);
+            this.gboxSegundaNota.TabIndex = 12;
+            this.gboxSegundaNota.TabStop = false;
+            // 
+            // lblSegundaNota
+            // 
+            this.lblSegundaNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSegundaNota.Location = new System.Drawing.Point(7, 0);
+            this.lblSegundaNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSegundaNota.Name = "lblSegundaNota";
+            this.lblSegundaNota.Size = new System.Drawing.Size(99, 21);
+            this.lblSegundaNota.TabIndex = 4;
+            this.lblSegundaNota.Text = "Segunda Nota";
+            this.lblSegundaNota.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblSegundaNota.Click += new System.EventHandler(this.Label1Click);
+            // 
+            // cboxSegundaNota
+            // 
+            this.cboxSegundaNota.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxSegundaNota.FormattingEnabled = true;
+            this.cboxSegundaNota.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "5"});
+            this.cboxSegundaNota.Location = new System.Drawing.Point(11, 57);
+            this.cboxSegundaNota.Margin = new System.Windows.Forms.Padding(4);
+            this.cboxSegundaNota.Name = "cboxSegundaNota";
+            this.cboxSegundaNota.Size = new System.Drawing.Size(94, 24);
+            this.cboxSegundaNota.TabIndex = 3;
+            this.cboxSegundaNota.SelectedIndexChanged += new System.EventHandler(this.cboxPrimeiraNota_SelectedIndexChanged);
+            // 
+            // txtSegundaNota
+            // 
+            this.txtSegundaNota.Location = new System.Drawing.Point(11, 25);
+            this.txtSegundaNota.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSegundaNota.Name = "txtSegundaNota";
+            this.txtSegundaNota.Size = new System.Drawing.Size(94, 22);
+            this.txtSegundaNota.TabIndex = 2;
+            this.txtSegundaNota.TextChanged += new System.EventHandler(this.txtPrimeiraNota_TextChanged);
+            // 
+            // gboxTerceiraNota
+            // 
+            this.gboxTerceiraNota.Controls.Add(this.lblTerceiraNota);
+            this.gboxTerceiraNota.Controls.Add(this.cboxTerceiraNota);
+            this.gboxTerceiraNota.Controls.Add(this.txtTerceiraNota);
+            this.gboxTerceiraNota.Location = new System.Drawing.Point(249, 146);
+            this.gboxTerceiraNota.Name = "gboxTerceiraNota";
+            this.gboxTerceiraNota.Size = new System.Drawing.Size(116, 88);
+            this.gboxTerceiraNota.TabIndex = 12;
+            this.gboxTerceiraNota.TabStop = false;
+            // 
+            // lblTerceiraNota
+            // 
+            this.lblTerceiraNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTerceiraNota.Location = new System.Drawing.Point(12, 0);
+            this.lblTerceiraNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTerceiraNota.Name = "lblTerceiraNota";
+            this.lblTerceiraNota.Size = new System.Drawing.Size(94, 21);
+            this.lblTerceiraNota.TabIndex = 4;
+            this.lblTerceiraNota.Text = "Terceira Nota";
+            this.lblTerceiraNota.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblTerceiraNota.Click += new System.EventHandler(this.Label1Click);
+            // 
+            // cboxTerceiraNota
+            // 
+            this.cboxTerceiraNota.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxTerceiraNota.FormattingEnabled = true;
+            this.cboxTerceiraNota.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "5"});
+            this.cboxTerceiraNota.Location = new System.Drawing.Point(11, 57);
+            this.cboxTerceiraNota.Margin = new System.Windows.Forms.Padding(4);
+            this.cboxTerceiraNota.Name = "cboxTerceiraNota";
+            this.cboxTerceiraNota.Size = new System.Drawing.Size(94, 24);
+            this.cboxTerceiraNota.TabIndex = 3;
+            this.cboxTerceiraNota.SelectedIndexChanged += new System.EventHandler(this.cboxPrimeiraNota_SelectedIndexChanged);
+            // 
+            // txtTerceiraNota
+            // 
+            this.txtTerceiraNota.Location = new System.Drawing.Point(11, 25);
+            this.txtTerceiraNota.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTerceiraNota.Name = "txtTerceiraNota";
+            this.txtTerceiraNota.Size = new System.Drawing.Size(94, 22);
+            this.txtTerceiraNota.TabIndex = 2;
+            this.txtTerceiraNota.TextChanged += new System.EventHandler(this.txtPrimeiraNota_TextChanged);
+            // 
+            // gboxQuartaNota
+            // 
+            this.gboxQuartaNota.Controls.Add(this.lblQuartaNota);
+            this.gboxQuartaNota.Controls.Add(this.cboxTrabalho);
+            this.gboxQuartaNota.Controls.Add(this.txtQuartaNota);
+            this.gboxQuartaNota.Location = new System.Drawing.Point(371, 146);
+            this.gboxQuartaNota.Name = "gboxQuartaNota";
+            this.gboxQuartaNota.Size = new System.Drawing.Size(116, 88);
+            this.gboxQuartaNota.TabIndex = 12;
+            this.gboxQuartaNota.TabStop = false;
+            // 
+            // cboxTrabalho
+            // 
+            this.cboxTrabalho.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxTrabalho.FormattingEnabled = true;
+            this.cboxTrabalho.Items.AddRange(new object[] {
+            "2",
+            "3",
+            "5"});
+            this.cboxTrabalho.Location = new System.Drawing.Point(11, 57);
+            this.cboxTrabalho.Margin = new System.Windows.Forms.Padding(4);
+            this.cboxTrabalho.Name = "cboxTrabalho";
+            this.cboxTrabalho.Size = new System.Drawing.Size(94, 24);
+            this.cboxTrabalho.TabIndex = 3;
+            this.cboxTrabalho.SelectedIndexChanged += new System.EventHandler(this.cboxPrimeiraNota_SelectedIndexChanged);
+            // 
+            // txtQuartaNota
+            // 
+            this.txtQuartaNota.Location = new System.Drawing.Point(11, 25);
+            this.txtQuartaNota.Margin = new System.Windows.Forms.Padding(4);
+            this.txtQuartaNota.Name = "txtQuartaNota";
+            this.txtQuartaNota.Size = new System.Drawing.Size(94, 22);
+            this.txtQuartaNota.TabIndex = 2;
+            this.txtQuartaNota.TextChanged += new System.EventHandler(this.txtPrimeiraNota_TextChanged);
+            // 
+            // lblQuartaNota
+            // 
+            this.lblQuartaNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuartaNota.Location = new System.Drawing.Point(11, 0);
+            this.lblQuartaNota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQuartaNota.Name = "lblQuartaNota";
+            this.lblQuartaNota.Size = new System.Drawing.Size(94, 21);
+            this.lblQuartaNota.TabIndex = 4;
+            this.lblQuartaNota.Text = "Quarta Nota";
+            this.lblQuartaNota.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblQuartaNota.Click += new System.EventHandler(this.Label1Click);
             // 
             // FormaCalculo1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 468);
+            this.Controls.Add(this.gboxQuartaNota);
+            this.Controls.Add(this.gboxTerceiraNota);
+            this.Controls.Add(this.gboxSegundaNota);
+            this.Controls.Add(this.gboxPrimeiraNota);
             this.Controls.Add(this.gpbxRecuperacao);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
@@ -512,24 +559,12 @@ namespace CalculoMedia
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.lblQuantidadeDeFaltas);
             this.Controls.Add(this.lblQantidadeDeAulas);
-            this.Controls.Add(this.lblTrabalho);
             this.Controls.Add(this.lblFormatoAvaliacao);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.lblSegundaNota);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblPrimeiraNota);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.cboxTrabalho);
             this.Controls.Add(this.cboxAvaliacao);
-            this.Controls.Add(this.cboxSegundaNota);
-            this.Controls.Add(this.cboxPrimeiraNota);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.txtTrabalho);
-            this.Controls.Add(this.txtSegundaNota);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.txtPrimeiraNota);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -543,6 +578,14 @@ namespace CalculoMedia
             this.gpbxRecuperacao.ResumeLayout(false);
             this.gpbxRecuperacao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.gboxPrimeiraNota.ResumeLayout(false);
+            this.gboxPrimeiraNota.PerformLayout();
+            this.gboxSegundaNota.ResumeLayout(false);
+            this.gboxSegundaNota.PerformLayout();
+            this.gboxTerceiraNota.ResumeLayout(false);
+            this.gboxTerceiraNota.PerformLayout();
+            this.gboxQuartaNota.ResumeLayout(false);
+            this.gboxQuartaNota.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -555,8 +598,21 @@ namespace CalculoMedia
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cboxAvaliacao;
         private System.Windows.Forms.Label lblFormatoAvaliacao;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtPrimeiraNota;
+        private System.Windows.Forms.ComboBox cboxPrimeiraNota;
+        private System.Windows.Forms.Label lblPrimeiraNota;
+        private System.Windows.Forms.GroupBox gboxPrimeiraNota;
+        private System.Windows.Forms.GroupBox gboxSegundaNota;
+        private System.Windows.Forms.Label lblSegundaNota;
+        private System.Windows.Forms.ComboBox cboxSegundaNota;
+        private System.Windows.Forms.TextBox txtSegundaNota;
+        private System.Windows.Forms.GroupBox gboxTerceiraNota;
+        private System.Windows.Forms.Label lblTerceiraNota;
+        private System.Windows.Forms.ComboBox cboxTerceiraNota;
+        private System.Windows.Forms.TextBox txtTerceiraNota;
+        private System.Windows.Forms.GroupBox gboxQuartaNota;
+        private System.Windows.Forms.ComboBox cboxTrabalho;
+        private System.Windows.Forms.TextBox txtQuartaNota;
+        private System.Windows.Forms.Label lblQuartaNota;
     }
 }

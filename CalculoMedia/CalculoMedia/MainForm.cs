@@ -29,7 +29,10 @@ namespace CalculoMedia
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		void TextBox1TextChanged(object sender, EventArgs e)
+
+        int selectedIndex;
+
+        void TextBox1TextChanged(object sender, EventArgs e)
 		{
 	
 		}
@@ -46,6 +49,7 @@ namespace CalculoMedia
 	
 		}
 
+
         private void txtTrabalho_TextChanged(object sender, EventArgs e)
         {
 
@@ -56,9 +60,81 @@ namespace CalculoMedia
 
         }
 
-        private void cboxSegundaNota_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        /* 
+         Lembre de opções na ComboBox Avaliações:
+            1 Avaliação + Trabalho
+            2 Avaliações
+            2 Avaliações + Trabalho
+            3 Avaliações
+            3 Avaliações + Trabalho
+            4 Avaliações
+        */
 
+
+
+        private void cboxAvaliacao_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboxAvaliacao.SelectedItem.ToString() == "1 Avaliação + Trabalho")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                lblSegundaNota.Text = "Trabalho";
+                gboxTerceiraNota.Visible = false;
+                gboxQuartaNota.Visible = false;
+            }
+
+            if(cboxAvaliacao.SelectedItem.ToString() == "2 Avaliações")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                lblSegundaNota.Text = "Segunda Nota";
+                gboxTerceiraNota.Visible = false;
+                gboxQuartaNota.Visible = false;
+            }
+
+            if (cboxAvaliacao.SelectedItem.ToString() == "2 Avaliações + Trabalho")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                txtTerceiraNota.Text = "Terceira Nota Funcionando";
+                lblTerceiraNota.Text = "Trabalho";
+                gboxTerceiraNota.Visible = true;                 
+                gboxQuartaNota.Visible = false;
+            }
+
+            
+            if (cboxAvaliacao.SelectedItem.ToString() == "3 Avaliações")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                txtTerceiraNota.Text = "Terceira Nota Funcionando";
+                lblTerceiraNota.Text = "Terceira Nota";
+                gboxTerceiraNota.Visible = true;
+                gboxQuartaNota.Visible = false;
+            }
+
+            
+            if (cboxAvaliacao.SelectedItem.ToString() == "3 Avaliações + Trabalho")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                txtTerceiraNota.Text = "Terceira Nota Funcionando";
+                txtQuartaNota.Text = "Quarta Nota Funcionando";
+                lblQuartaNota.Text = "Trabalho";
+                gboxTerceiraNota.Visible = true;
+                gboxQuartaNota.Visible = true;
+            }
+
+            if (cboxAvaliacao.SelectedItem.ToString() == "4 Avaliações")
+            {
+                txtPrimeiraNota.Text = "Primeira Nota Funcionando";
+                txtSegundaNota.Text = "Segunda Nota Funcionando";
+                txtTerceiraNota.Text = "Terceira Nota Funcionando";
+                txtQuartaNota.Text = "Quarta Nota Funcionando";
+                lblQuartaNota.Text = "Quarta Nota";
+                gboxTerceiraNota.Visible = true;
+                gboxQuartaNota.Visible = true;
+            } 
         }
 
         private void txtSegundaNota_TextChanged(object sender, EventArgs e)
