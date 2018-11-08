@@ -1,0 +1,26 @@
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe.config
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.pdb
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csprojResolveAssemblyReference.cache
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.FormaCalculo1.resources
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.GenerateResource.Cache
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.exe
+C:\Users\Convidado\Documents\SharpDevelop Projects\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.pdb
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csprojAssemblyReference.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.FormaCalculo1.resources
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.GenerateResource.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.CoreCompileInputs.cache
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.exe
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.pdb
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe.config
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe
+C:\Users\Convidado\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.pdb
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe.config
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.exe
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\bin\Debug\CalculoMedia.pdb
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csprojAssemblyReference.cache
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.FormaCalculo1.resources
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.GenerateResource.cache
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.csproj.CoreCompileInputs.cache
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.exe
+C:\Users\Positivo Premium\Desktop\Projetos C Sharp\Calculadora_de_Media-master\CalculoMedia\CalculoMedia\obj\Debug\CalculoMedia.pdb

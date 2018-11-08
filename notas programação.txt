@@ -78,4 +78,7 @@ frmVisualizadorImagens:
 7. Desabilitar botão Mostrar Imagem, caso não tenha imagem.
 
 
-Como fazer a
+Declarando Variáveis fora do escopo da afirmação if-else:
+
+https://codingbee.net/tutorials/c/c-declare-variables-outside-if-else-statement-scope
+
